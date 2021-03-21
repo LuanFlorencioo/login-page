@@ -84,6 +84,19 @@ h1, h2, h3, h4 {
         padding-left: 10px;
     }
 
+    #email-txt, #password-txt {
+        width: 50%;
+        outline: none;
+        border: 0;
+        border-bottom: 2px solid #000;
+        transition: .3s;
+    }
+
+    #email-txt:focus, #password-txt:focus {
+        width: 70%;
+        border-color: #65fc;
+    }
+
     .login-access {
         display: flex;
         flex-direction: column;
