@@ -1,11 +1,11 @@
 function signup() {
-    let mail = document.querySelector('input#email-txt')
+    let email = document.querySelector('input#email-txt')
     let password = document.querySelector('input#password-txt')
 
-    if (mail.value === 'test' && password.value === '6903') {
+    if (email.value === 'test' && password.value === '6903') {
         alert('Done!')
     } else {
-        mail.style.borderColor = 'red'
+        email.style.borderColor = 'red'
         password.style.borderColor = 'red'
     }
 }
