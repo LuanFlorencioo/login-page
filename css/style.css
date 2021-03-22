@@ -73,7 +73,7 @@
         width: 100%;
         height: 100%;
 
-        background-image: url(/images/illustration-login.svg);
+        background-image: url(../images/illustration-login.svg);
         background-repeat: no-repeat;
         background-size: 55%;
         background-position-x: left;
@@ -159,7 +159,7 @@
         justify-content: flex-end;
         align-items: center;
 
-        background-image: url(/images/illustration-login-nature.svg);
+        background-image: url(../images/illustration-login-nature.svg);
         background-size: 50%;
         background-repeat: no-repeat;
         background-position-x: 10%;
