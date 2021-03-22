@@ -25,15 +25,10 @@
 
     #email-txt, #password-txt {
         width: 50%;
-        outline: none;
-        border: 0;
-        border-bottom: 2px solid #000;
-        transition: .3s;
     }
 
     #email-txt:focus, #password-txt:focus {
         width: 70%;
-        border-color: #65fc;
     }
 
     .login-access {
@@ -41,6 +36,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 5%;
     }
 
     .login-access button {
@@ -53,54 +49,23 @@
     }
 
     .login-socialmedia {
-        width: 100%;
         height: 173px;
 
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        justify-content: flex-end;
     }
 
     .login-socialmedia button {
         width: 85%;
         height: 18%;
-        margin: 5px 0;
-        border-radius: 6px;
-        border: none;
-        outline: none;
+        
         text-align: left;
         font-weight: bold;
-    }
-    .login-socialmedia button i {
-        margin: 0 15px;
+        font-size: 16px;
     }
     
-    .login-socialmedia .facebook i {
-        color: #fff;
-        font-size: 18px;
-    }
-    .login-socialmedia .google i {
-        color: #ce1e1e;
-        font-size: 18px;
-    }
-    .login-socialmedia .github i {
-        color: #fff;
-        font-size: 18px;
-    }
-
-    .login-socialmedia .facebook {
-        background: #4593f8;
-        color: #fff;
-    }
-    .login-socialmedia .google {
-        background: #f0f0f0;
-        color: #db4848;
-    }
-    .login-socialmedia .github {
-        background: #303030;
-        color: #fff;
-    }
 }
 
 @media (max-width: 768.98px) and (min-width: 451px) {
@@ -119,14 +84,10 @@
         justify-content: center;
     }
 
-    section.login-container {
+    .login-container {
         width: 70%;
         height: 50%;
         margin-top: 15%;
-
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 7px 5px 1px rgba(0, 0, 0, 0.486);
     }
 
     h2 {
@@ -136,7 +97,7 @@
     }
 
     .login {
-        margin: 0 0 2.5% 5%;
+        margin: 0 0 2% 5%;
     }
 
     .login p {
@@ -159,7 +120,6 @@
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 3%;
     }
 
     .login-access p {
@@ -172,7 +132,7 @@
 
     .login-socialmedia {
         width: 100%;
-        height: 75px;
+        height: 20%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -180,34 +140,15 @@
     }
 
     .login-socialmedia button {
-        height: 40px;
-        padding: 5px 10px;
+        width: 30%;
+        height: 50%;
         border: none;
         border-radius: 3px;
         font-size: 15px;
     }
-
-    .login-socialmedia button i {
-        margin-right: 5px;
-    }
-
-    .login-socialmedia .facebook, .login-socialmedia .facebook i {
-        background: #4593f8;
-        color: #fff;
-    }
-
-    .login-socialmedia .google, .login-socialmedia .google i {
-        background: #f0f0f0;
-        color: #ce1e1e;
-    }
-
-    .login-socialmedia .github, .login-socialmedia .github i {
-        background: #000;
-        color: #fff;
-    }
 }
 
-@media (max-width: 1600px) and (min-width: 769px) {
+@media (max-width: 1920px) and (min-width: 769px) {
 
     main {
         width: 100%;
@@ -234,7 +175,7 @@
     .login {
         width: 100%;
         height: 25%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
 
     .login p {
@@ -246,8 +187,13 @@
     }
 
     #email-txt, #password-txt {
+        width: 50%;
         margin-left: 10%;
         padding: 5px 0 5px 5px;
+    }
+
+    #email-txt:focus, #password-txt:focus, #email-txt:hover, #password-txt:hover {
+        width: 80%;
     }
 
     .login-access {
@@ -257,6 +203,14 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .go:hover {
+        background: #5454d4;
+    }
+
+    .login-access a:hover {
+        color: #66fe;
     }
 
     .login-socialmedia {
@@ -273,29 +227,12 @@
         width: 80%;
         height: 25%;
         text-align: left;
-        padding-left: 5%;
+        padding-left: 3%;
         font-size: 16px;
-        border: none;
         border-radius: 4px;
     }
 
     .login-socialmedia button i {
-        margin-right: 10%;
         font-size: 20px;
-    }
-
-    .login-socialmedia .facebook, .login-socialmedia .facebook i {
-        background: #4593f8;
-        color: #fff;
-    }
-
-    .login-socialmedia .google, .login-socialmedia .google i {
-        background: #f0f0f0;
-        color: #ce1e1e;
-    }
-
-    .login-socialmedia .github, .login-socialmedia .github i {
-        background: #303030;
-        color: #fff;
     }
 }
